@@ -2,3 +2,17 @@ chmod +x git_pull_all.sh git_push_all.sh
 
 ./git_pull_all.sh ~/projects
 ./git_push_all.sh ~/projects 
+
+
+
+# Última semana en $HOME/projects
+./count_commits.sh
+
+# Período específico
+./count_commits.sh /ruta/projects "1 month ago"
+
+# Desde hace 3 semanas
+./count_commits.sh /ruta/projects "3 weeks ago"
+
+cd ~/Desktop/Scripts_Adminsitracion_Productividad
+./count_commits.sh .. "all"  # Analiza Desktop completo con todos los commits
