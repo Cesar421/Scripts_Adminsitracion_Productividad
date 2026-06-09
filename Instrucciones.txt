@@ -1,0 +1,4 @@
+chmod +x git_pull_all.sh git_push_all.sh
+
+./git_pull_all.sh ~/projects
+./git_push_all.sh ~/projects 
